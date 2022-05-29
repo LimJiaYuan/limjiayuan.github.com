@@ -10,50 +10,41 @@
             font-size: 3vw;
         }
 
-        .titlebox {
-            display: flex;
-            height: 80vh;
-            width: 125vw;
-            align-items: left ;
-            text-align: left;
-        }
-
         .container {
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
             /* This is the magic to make the 2 div align horizontally */
-            height: 70vh;
-            width: 30vw;
+            height: 75vh;
+            width: 95vw;
             /* 80% height of the full page */
             text-align: left;
         }
 
         .container .box {
-            height: 135%;
-            width: 20%;
+            height: 95%;
+            width: 25%;
             display: flex;
             /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center ;
+            align-items: left ;
             
         }
 
         .box div {
             width: 50%;
-            text-align: center;
+            text-align: left;
         }
 
         #box2 {
+            text-align:right;
+            background-image: url("images/unsplash.jpg");
+            background-size: cover;
+            background-position: left;
+        }
+        #box3 {
             text-align: left;
             background-image: url("images/unsplash.jpg");
             background-size: cover;
-            background-position: top left ;
-        }
-        #box3 {
-            text-align: right;
-            align-items: right ;
-            height: 90%;
-            width: 5;
-            background-position: top left;
+            background-position: left;
         }
 
         h1 {
@@ -75,13 +66,13 @@
 <body>
     <div class="container">
         <div id="box1" class="box">
-            <h1>MERLAND <br> FURNITURE</h1>
+            <h1> MERLAND <br> FURNITURE</h1>
         </div>    
         <div id="box2" class="box">
             <h6>Furniture, decor, and beyond</h6> 
         </div>
         <div id="box3" class="box">
-            <img src="../image/hwk1.jpg" height="95%">
+            <img src="../image/hwk1.jpg" height="130%">
         </div>
     </div>
 </body>
