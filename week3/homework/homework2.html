@@ -13,7 +13,7 @@
         }
 
         .titlebox {
-            height: 30vh;
+            height: 20vh;
             /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
             width: 50%;
             text-align: center;
@@ -24,7 +24,7 @@
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
             /* This is the magic to make the 2 div align horizontally */
-            height: 80vh;
+            height: 40vh;
             /* 80% height of the full page */
             width: 100vw;
             text-align: center;
@@ -32,9 +32,9 @@
 
         .container .box {
             /* All the .box under .container */
-            width: 50%;
+            width: 50vw;
             /* Each column would takes up 50%, so equally sharing spaces left and right */
-            height: 40%;
+            height: 80%;
             display: flex;
             /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             align-items: center center;
@@ -42,9 +42,9 @@
         }
         .container .box1 {
             /* All the .box under .container */
-            width: 50%;
+            width: 60%;
             /* Each column would takes up 50%, so equally sharing spaces left and right */
-            height: 40%;
+            height: 50%;
             display: flex;
             /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             align-items: center center;
@@ -65,15 +65,15 @@
         .box div {
             /* All the div under .box */
             width: 80%;
-            height: 50vw;
+            height: 30vw;
             align-items: center;
             text-align: center;
         }
 
         .box1 div {
             /* All the div under .box1 */
-            width: 80%;
-            height: 90vw;
+            width: 50%;
+            height: 100vw;
             align-items: center;
             text-align: center;
         }
@@ -129,21 +129,21 @@
         </div>
     </div> 
     <div class="container">
-        <div id="box6" class="box" style="text-align:center;">
-            <h4> Murielle Blake <br> 
-            <div id="box9" class="box1" style="text-align:center;">
+        <div id="box6" class="box">
+            <h4> Murielle Blake 
+            <div id="box9" class="box1">
                 <h6>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h6>
             </div> </h4>     
         </div>
-        <div id="box7" class="box" style="text-align:center;">
-            <h4> Inna Tran <br> 
-            <div id="box10" class="box1" style="text-align:center;">
+        <div id="box7" class="box">
+            <h4> Inna Tran 
+            <div id="box10" class="box1">
                 <h6>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h6>
             </div> </h4>     
         </div>
-        <div id="box8" class="box" style="text-align:center;">
-            <h4> Clyde Meily <br> 
-            <div id="box11" class="box1" style="text-align:center;">
+        <div id="box8" class="box">
+            <h4> Clyde Meily 
+            <div id="box11" class="box1">
                 <h6>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</h6>
             </div> </h4>     
         </div>
