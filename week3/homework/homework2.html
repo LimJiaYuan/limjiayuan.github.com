@@ -13,11 +13,11 @@
         }
 
         .titlebox {
-            height: 35vh;
+            height: 30vh;
             /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
             width: 50%;
             text-align: center;
-            align-items: center;
+            
         }
 
         .container {
@@ -40,19 +40,48 @@
             align-items: center center;
             /* vertically center */
         }
+        .container .box1 {
+            /* All the .box under .container */
+            width: 50%;
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+            height: 40%;
+            display: flex;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            align-items: center center;
+            /* vertically center */
+        }
 
+        .container .box2 {
+            /* All the .box under .container */
+            width: 50%;
+            /* Each column would takes up 50%, so equally sharing spaces left and right */
+            height: 40%;
+            display: flex;
+            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            align-items: center center;
+            /* vertically center */
+        }
+      
         .box div {
             /* All the div under .box */
-            width: 90%;
-            height: 52vw;
+            width: 80%;
+            height: 50vw;
             align-items: center;
             text-align: center;
         }
 
         .box1 div {
-            /* All the div under .box */
-            width: 100%;
-            height: 55vw;
+            /* All the div under .box1 */
+            width: 80%;
+            height: 90vw;
+            align-items: center;
+            text-align: center;
+        }
+
+        .box2 div {
+            /* All the div under .box2 */
+            width: 20%;
+            height: 50vw;
             align-items: center;
             text-align: center;
         }
@@ -75,13 +104,16 @@
 
 <body>
     <div class="container">
-        <div id="box11" class="box" >
+        <div id="box12" class="box2" >
             <p></p>
         </div>
         <div class="titlebox" >
             <h2>  
                 CUSTOMER REVIEWS
-            </h2>
+            </h2>    
+        </div>
+        <div id="box13" class="box2" >
+            <p></p>
         </div>
     </div>
 
