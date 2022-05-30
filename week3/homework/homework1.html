@@ -8,6 +8,8 @@
             background-color: rgba(255, 255, 255, 0.959);
             font-family: 'Lato', sans-serif;
             font-size: 3vw;
+            margin:0;
+            margin-right: 60px;
         }
 
         .titlebox {
@@ -21,31 +23,29 @@
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
             /* This is the magic to make the 2 div align horizontally */
-            height: 60vh;
+            margin-top: 60px;
             /* 80% height of the full page */
+            align-items: center;
+        }
+
+        .textTitle{
+            font-weight: bold;
+        }
+
+        #box1{
+            font-size: 200%;
+            width: 100%;
             text-align: left;
         }
 
-        .container .box {
-            height: 64vh;
-            width: 50vw;
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: left;
-            
+        #box2{
+            font-size: bold;
         }
 
-        .box div {
-            width: 50%;
-            text-align: left;
+        #box3{
+            height:100%;
         }
-
-        h1 {
-            padding:10px;
-            border: 7px black solid;
-            text-align: left;
-        }
-
+        
     </style>
     <!-- this is HTML Comment 
          The 2 lines below is to install Google Fonts. 
@@ -60,7 +60,8 @@
     <div class="container">
         <div class="titlebox">
             <div id="box1" class="box">
-                <h1> MERLAND <br> FURNITURE<br></h1>   
+                <span class="textTitle"> MERLAND </span><br>
+                <span class="textTitle"> FURNITURE</span> 
             </div>   
             <div id="box2" class="box">
                 <h6>Furniture, decor, and beyond</h6> 
