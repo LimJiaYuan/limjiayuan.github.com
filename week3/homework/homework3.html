@@ -30,36 +30,54 @@
             width: 100%;
         }
 
-        #box2 {
-            text-align: right;
-            background-image: url("images/unsplash.jpg");
-            background-size: cover;
-            background-position: center center;
-        }
-
         .titlebox {
             border: 7px black solid;
-            padding: 10px;
+            padding: 45px;
             border-right:0;
             width:38%;
-            height:57vh;
+            height:43vh;
             margin-right: 60px;
             margin-top: 4.8%;
+            text-align: right;
         }
+        .textTitle{
+            font-weight: 750;
+        }
+        .subtitle {
+            font-weight:800;
+            font-size: 40%;
+        }
+        .text {
+            font-size: 20%;
+        }
+
     </style>
-    <!-- this is HTML Comment 
-         The 2 lines below is to install Google Fonts. 
-         For all font in your homeworks, use Lato (as above)
-        -->
+
 </head>
 
 <body>
     <div class="container">
         <div class="titlebox">
-            <h1>My Title</h1>
+            <div id="box1" class="box">
+                <span class="textTitle">CONNECT WITH US</span>
+            </div>
+            <div id="box2" class="box" style="margin-top: 10px;">
+                <div id="box3" class="box">
+                    <span class="subtitle">Malling Address</span>
+                    <p style="font-size:37% ;margin: 0%;">123 Anywhere St., Any City, State, Country 12345</p>
+                </div>  
+                <div id="box4" class="box">
+                    <span class="subtitle">Email Address</span>
+                    <p style="font-size:37% ;margin: 0%;">hello@reallygreatsite.com</p>
+                </div>
+                <div id="box5" class="box">
+                    <span class="subtitle">Phone Number</span>
+                    <p style="font-size:37% ;margin: 0%;">(123) 456 7890</p>
+                </div>  
+            </div>
         </div>
     
-        <div id="box1" class="box">
+        <div id="box60" class="box">
             <img src="../image/hwk3.jpg" height="86%"/>
         </div>
     </div>
