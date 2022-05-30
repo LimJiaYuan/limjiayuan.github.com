@@ -10,6 +10,8 @@
             /* If Lato not available, use sans-serif */
             font-size: 3vw;
             /* vw is the size unit, it changes based on your current screen size. The bigger screen the font will be bigger and vice versa. */
+            margin: 0;
+            margin-left:120px;
         }
 
         .titlebox {
@@ -17,7 +19,7 @@
             /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
             width: 50%;
             text-align: center;
-            
+            margin-left: 120px;
         }
 
         .container {
@@ -26,42 +28,21 @@
             /* This is the magic to make the 2 div align horizontally */
             height: 40vh;
             /* 80% height of the full page */
-            width: 100vw;
+            width: 100%;
             text-align: center;
         }
 
         .container .box {
             /* All the .box under .container */
-            width: 50vw;
+            width: 50%;
             /* Each column would takes up 50%, so equally sharing spaces left and right */
-            height: 80%;
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center center;
-            /* vertically center */
-        }
-        .container .box1 {
-            /* All the .box under .container */
-            width: 60%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
-            height: 50%;
+            height: 80vh;
             display: flex;
             /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             align-items: center center;
             /* vertically center */
         }
 
-        .container .box2 {
-            /* All the .box under .container */
-            width: 50%;
-            /* Each column would takes up 50%, so equally sharing spaces left and right */
-            height: 40%;
-            display: flex;
-            /* refer here to get more details about flex usage: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-            align-items: center center;
-            /* vertically center */
-        }
-      
         .box div {
             /* All the div under .box */
             width: 80%;
@@ -70,14 +51,12 @@
             text-align: center;
         }
 
-        .box1 div {
-            /* All the div under .box1 */
-            width: 50%;
-            height: 100vw;
-            align-items: center;
-            text-align: center;
+        .box1 {
+           
+           width: 20%;
+           height: 100%;
         }
-
+    
         .box2 div {
             /* All the div under .box2 */
             width: 20%;
@@ -87,9 +66,12 @@
         }
 
         h2 {
-            padding: 7px;
-            border: 8px black solid;
+            padding:28px 5px;
+            border: 7px black solid;
+            border-top: none;
             align-items: center;
+            font-size: 90%;
+            font-weight: bold;
         }
        
     </style>
@@ -104,28 +86,22 @@
 
 <body>
     <div class="container">
-        <div id="box12" class="box2" >
-            <p></p>
-        </div>
         <div class="titlebox" >
             <h2>  
                 CUSTOMER REVIEWS
             </h2>    
         </div>
-        <div id="box13" class="box2" >
-            <p></p>
-        </div>
     </div>
 
     <div class="container">
-        <div id="box4" class="box">
-            <img src="../image/hwk2a.jpg" />
+        <div id="box4" class="box1">
+            <img src="../image/hwk2a.jpg" height="121%" />
         </div>
-        <div id="box2" class="box">
-            <img src="../image/hwk2b.jpg" />
+        <div id="box2" class="box1">
+            <img src="../image/hwk2b.jpg" height="121%" />
         </div>
-        <div id="box3" class="box">
-            <img src="../image/hwk2c.jpg" />
+        <div id="box3" class="box1">
+            <img src="../image/hwk2c.jpg" height="121%" />
         </div>
     </div> 
     <div class="container">
