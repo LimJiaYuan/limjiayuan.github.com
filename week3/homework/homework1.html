@@ -15,7 +15,7 @@
         .titlebox {
             border: 7px black solid;
             padding: 4% 4%;
-            height: 100%;
+            height: 100;
             /* 20% height of the full page. Again like the vw as above, vw is width, then vh is height */
             border-left: 0;
         }
@@ -24,13 +24,14 @@
         }
 
         .container {
-            width:100%;
+            width:125vw;
             /* Target those elements containing class (dot) called 'container' */
             display: flex;
             /* This is the magic to make the 2 div align horizontally */
             margin-top: 7px;
             /* 80% height of the full page */
             align-items: center;
+            height: 95vh;
         }
 
         #box1{
@@ -69,9 +70,9 @@
                 <span>Furniture, decor, and beyond</span> 
             </div>  
         </div>
-
+        
         <div id="box3" class="box">
-            <img src="../image/hwk1.jpg" height="75%">
+            <img src="../image/hwk1.jpg" height="98%">
         </div>
     </div> 
 </body>
