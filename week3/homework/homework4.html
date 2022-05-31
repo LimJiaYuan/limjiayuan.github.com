@@ -22,20 +22,36 @@
             text-align: center;
         }
 
-        .contentbox {
+        .contentbox1 {
             padding: 10px;
+            border: 3px solid;
+            border-top: 0px;
+            border-bottom: 0px; 
+            border-right: 0px;
+            height: 87vh;
+            width: 45vw;
+        }
+        .contentbox2 {
+            padding: 10px;
+            padding-top:0%;
+            padding-bottom: 0%;
             border: 3px solid;
             border-top: 0px;
             border-bottom: 0px; 
         }
         .titlebox{
-            font-size: large;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding:3%;
+            padding-top:15%;
+        }
+        .title {
             text-align: center;
         }
+        .textbox {
+            padding:3%
+        }
         .text {
-            font-size: 40%;
-            text-align: center;
+            font-size: 48%;
+            width:45vw;
         }
 
     </style>
@@ -45,19 +61,23 @@
 <body>
     <div class="container">
         <div id="box1" class="box">
-            <div id="box2" class="contentbox">
-                <span class="titlebox">Who We Are</span>
-                <div id="box3" class="box. text">
-                    Mintmade Online offers a well-curated range of fashion items for men and women.
+            <div id="box2" class="contentbox1">
+                <div class="titlebox">
+                    <span class="title">Who <i>We</i> Are</span>
                 </div>
-                <div id="box4" class="box. text">
-                    We aim to provide an enjoyable shopping experience for all our customers.
+                <div class="textbox">
+                    <span id="box3" class="text">
+                        Mintmade Online offers a well-curated range of fashion items for men and women.
+                    </span> <br>
+                    <span id="box4" class="text">
+                        We aim to provide an enjoyable shopping experience for all our customers.
+                    </span>
                 </div>
             </div>
         </div>
         <div id="box5" class="box">
-            <div id="box6" class="contentbox">
-                <img src="../image/hwk4.jpg" >
+            <div id="box6" class="contentbox2">
+                <img src="../image/hwk4.jpg" width="80%" >
             </div>
         </div>
         
