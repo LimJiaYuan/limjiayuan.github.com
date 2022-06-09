@@ -1,5 +1,18 @@
 #container {
-    background-color: #f1f1f1;
+    background-color: #907777;
     max-width: 1024px;
     margin:auto;
+    padding:20px;
+}
+
+#header {
+    background-color: rgb(50, 224, 255);
+    text-align: center;
+    padding: 20px; 
+    background-image: url("../image/background--cold-colors.jpg"); 
+    background-size: cover;
+}
+
+h1 {
+    margin-top:0;
 }
