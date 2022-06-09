@@ -21,6 +21,9 @@ h1 {
 .topnav {
     display: flex;
     background-color: #333;
+    /*flex-wrap: wrap; */
+    /*justify-content: center; */
+    justify-content: space-between;
 }
 
 /* Navbar links */
@@ -29,11 +32,64 @@ h1 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /*width: 200px; */
 }
 
 /* Links - change color on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(255, 31, 31);
     text-decoration: underline;
+}
+
+.boxlink {
+    display: flex;
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content:space-around;
+}
+
+/* Column */
+.column {
+    width: 25%;
+}
+
+#column1 {
+    width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width:600px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+    }
+    #column1 {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-column {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: rgb(69, 53, 218);
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
