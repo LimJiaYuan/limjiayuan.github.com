@@ -22,6 +22,49 @@
                 <a href="#">Others</a>
                 <a href="#">Contexts</a>
             </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="image/slideshow1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="image/slideshow2.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="row">
+                <div id="feat1" class="feat">
+                    <p>feat1</p>
+                </div>
+                <div class="feat">
+                    <p>feat2</p>
+                </div>
+                <div class="feat">
+                    <p>feat3</p>
+                </div>
+                <div id="feat4" class="feat">
+                    <p>feat4</p>
+                </div>
+            </div>
+
         </div>
-    </body>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            
+            </script>
+    </body>     
 </html>
