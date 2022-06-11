@@ -110,13 +110,38 @@ img {
 }
 
 .feat {
-    width:22%;
+    width:24%;
     text-align: center;
-    background-color: darkorchid;
+    padding:10px;
+    background-color: #391d47;
 }
 
 .textcontainer {
-    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#text-content {
+    text-align: center;
+    background-color:rgb(215, 215, 255) ;
+    color:midnightblue;
+    width: 65%;
+}
+
+#sidebar {
+    text-align: center;
+    background-color:rgb(80, 49, 100);
+    color: aliceblue;
+    width: 30%;
+}
+
+.footer {
+    background-color: #17071f;
+    color: #75369596;
+    margin-top:13px ;
+    padding:25px;
 }
 
 @media screen and (max-width:600px) {
