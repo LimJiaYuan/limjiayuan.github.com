@@ -1,0 +1,83 @@
+#container {
+    max-width: 1600px;
+    background: linear-gradient(to bottom right, rgb(10, 10, 198), rgb(192, 235, 255));
+    padding: 20px;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    background-color: rgb(27, 20, 71);
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+}
+
+#header-icon {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+#header-icon img {
+    width: 100%;
+}
+
+#header-title {
+    color: azure;
+    width: 50%;
+    text-align: center;
+}
+
+#header-title h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.content-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+#menu {
+    background-color: rgb(165, 196, 254);
+    width: 20%;
+    padding: 2% 4%;
+}
+
+#menu a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+#menu a:hover {
+    text-decoration: dashed;
+    color: lightcyan;
+    font-family: fantasy;
+    border-color: rgba(41, 41, 250, 0.795);
+    border-style:dashed;
+    border-width: 15px;
+}
+
+#main-right-container {
+    margin-top: 0;
+    width: 100%;
+}
+
+#mainbox {
+    background-color: rgb(83, 142, 251);
+    color: rgb(12, 13, 106);
+    padding: 2%;
+    width: 60%;
+    margin: 0 20px;
+}
+
+#rightbox {
+    background-color: rgb(22, 62, 137);
+    padding: 2%;
+    width: 40%;
+}
