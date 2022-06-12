@@ -60,12 +60,12 @@
     font-family: fantasy;
     border-color: rgba(41, 41, 250, 0.795);
     border-style:dashed;
-    border-width: 15px;
+    border-width: 10px;
 }
 
 #main-right-container {
-    margin-top: 0;
     width: 100%;
+    display: flex;
 }
 
 #mainbox {
@@ -73,11 +73,59 @@
     color: rgb(12, 13, 106);
     padding: 2%;
     width: 60%;
-    margin: 0 20px;
+    margin-right: 20px;
 }
 
 #rightbox {
     background-color: rgb(22, 62, 137);
     padding: 2%;
     width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: rgba(6, 5, 5, 0.76);
+    color: rgb(52, 133, 255);
+    padding: 4%;
+    margin-top: 20px;
+}
+
+#box1 {
+    margin-left:20px;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:600px) {
+    #header {
+        flex-direction: column;
+        height: 50%;
+    }
+    #header-icon {
+        width: 50%;
+    }
+    #header-title {
+        width: 100%;
+    }
+    .content-container {
+        flex-direction: column;
+    }
+    #menu {
+        width: 92%;
+    }
+    #main-right-container {
+        flex-direction: column;
+        width: 96.3%;
+    }
+    #mainbox { 
+        width: 100%;
+    }
+    #rightbox {
+        width: 100%;
+    }
+    #box1 {
+      margin-left: 0;  
+    }
 }
