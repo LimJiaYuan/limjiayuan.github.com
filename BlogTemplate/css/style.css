@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -362,6 +362,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  color: dodgerblue;
 }
 
 h2, .h2 {
@@ -370,6 +371,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  color: snow;
 }
 
 h4, .h4 {
@@ -1087,6 +1089,8 @@ pre code {
   .col-md-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
+    border-top: 10px solid transparent ;
+    border-image:url("../img/snow-storm.png") 50 round ;
   }
 
   .col-md-8 {
@@ -2652,13 +2656,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #2A4B7C;
+  color: #045aad;
   border-color: #2A4B7C;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #2A4B7C;
-  border-color: #2A4B7C;
+  background-color: #ff6cc7;
+  border-color: #712a7c;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(42, 75, 124, 0.5);
@@ -5762,7 +5766,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #2A4B7C !important;
+  background-color: #5bd7ff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -5772,7 +5776,9 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #202C45 !important;
+  background-image: url("../img/winterBG.jpg") !important;
+  background-size: 200px 100px;
+  border-bottom: 2px #f5c0fe solid;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -5842,7 +5848,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #cbe6fb !important;
 }
 
 .bg-transparent {
@@ -9449,7 +9455,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #b0daec !important;
 }
 
 .text-primary {
@@ -9668,7 +9674,7 @@ h3 {
   width: 100%;
   float: left;
   padding: 30px;
-  background: #ffffff;
+  background-image: url("../img/istockphoto-1064117208-612x612.jpg");
 }
 
 .wrapper .sidebar-icon {
@@ -9859,6 +9865,7 @@ h3 {
 @media (min-width: 768px) {
   .blog-item h3 {
     margin-left: -90px;
+    background-color: #95deff !important;
   }
 }
 .skills .progress .progress-bar {
