@@ -9898,5 +9898,14 @@ h3 {
   align-items: center;
 }
 
+#subtitle-about {
+  font-family: 'Righteous', cursive;
+  color: #759ad1;
+}
+
+#text-about {
+  color: #78ade3;
+}
+
 
 /*# sourceMappingURL=style.css.map */
