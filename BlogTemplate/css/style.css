@@ -9899,12 +9899,12 @@ h3 {
 }
 
 #subtitle-about {
-  font-family: 'Righteous', cursive;
-  color: #759ad1;
+  font-family: 'Righteous', cursive !important;
+  color: #759ad1 !important;
 }
 
 #text-about {
-  color: #78ade3;
+  color: #78ade3 !important;
 }
 
 
