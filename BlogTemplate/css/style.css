@@ -9879,4 +9879,24 @@ h3 {
   list-style-type: none;
 }
 
+#header-about {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+#header-item {
+  padding-bottom: 0px !important;
+}
+
+#header-aboutme {
+  color:#2a81b7 !important;
+}
+
+#header-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /*# sourceMappingURL=style.css.map */
