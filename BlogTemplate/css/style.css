@@ -9444,6 +9444,7 @@ button.bg-dark:focus {
 
 .font-weight-bold {
   font-weight: 700 !important;
+  font-family: 'Fascinate Inline', cursive;
 }
 
 .font-weight-bolder {
