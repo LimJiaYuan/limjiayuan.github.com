@@ -1,0 +1,30 @@
+.logo { grid-area: logo; }
+.menu {grid-area: menu;}
+.slideshow { grid-area: image; }
+.feat1 { grid-area: feat1; }
+.feat2 { grid-area: feat2; }
+.feat3 { grid-area: feat3; }
+.sidebar { grid-area: sidebar; }
+.text-content { grid-area: text-content; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo logo logo logo menu menu menu menu menu'
+    'image image image image image image image image image'
+    'feat1 feat1 feat1 feat2 feat2 feat2 feat3 feat3 feat3 '
+    'sidebar sidebar sidebar sidebar text-content text-content text-content text-content text-content'
+    'footer footer footer footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: #77838d;
+  padding: 10px;
+  grid-template-rows: 80px 200px 180px 400px 120px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

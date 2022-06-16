@@ -1,0 +1,89 @@
+.container {
+    background-color: antiquewhite;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin: 5px;
+    height: 40px;
+}
+
+.menu-logo {
+    padding: 5px;
+    width: 50%;
+}
+
+.menu {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.menu-text {
+    text-align: center;
+    padding: 5px;
+}
+
+.menu-text a {
+    padding: 10px;
+}
+
+#menu-image {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.header {
+    position: relative;
+    background-image: url("../image/h1background2.jpg");
+    height:450px ;
+    background-size: cover;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    color: aliceblue;
+}
+
+.sub-icon {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.text {
+    width: 20%;
+    padding: 1.5%;
+    border: 2px lightblue dotted;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.text p {
+    margin: 0px;
+}
+
+.autor {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
