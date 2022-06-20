@@ -393,6 +393,10 @@ input[type=submit]:hover {
     align-items: center;
 }
 
+#NL-h3-2 {
+    font-weight: 600;
+}
+
 /* Box 6 */
 #box6 {
     margin: 0;
