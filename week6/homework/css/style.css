@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    font-family: Verdana, sans-serif;
 }
 
 .container {
-
+    font-family: Verdana, sans-serif;
 }
 
 #sidebar {
