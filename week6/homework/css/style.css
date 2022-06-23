@@ -424,7 +424,7 @@ input[type=submit]:hover {
 #footer {
     padding: 4%;
     padding-bottom: 0;
-    padding-top: 15%;
+    padding-top: 12%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -455,7 +455,7 @@ input[type=submit]:hover {
 
 #footer1 a {
     width: 25%;
-    padding: 3%;
+    margin: 3%;
     text-align: center;
 }
 
