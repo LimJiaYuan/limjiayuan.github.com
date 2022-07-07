@@ -12,13 +12,17 @@ h1 {
 }
 
 #box {
-    background-color: rgba(113, 224, 109, 0.6);
+    background-color: rgb(175 255 211 / 60%);
 }
 
 #form-box {
     margin: auto;
     padding: 20px 12px 10px 20px;
     width: 60%;
+}
+
+legend {
+    font-size: 34px;
 }
 
 #form-box label {
