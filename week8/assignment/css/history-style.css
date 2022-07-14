@@ -1,0 +1,507 @@
+body {
+    margin: 0%;
+}
+
+#container {
+    margin: auto;
+    max-width: 1280px;
+    background-color: #A7BFCF;
+    padding: 2% 0 0 0;
+}
+
+/* container link - page bottom*/
+.fool3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 98%;
+    opacity: 0.6;
+}
+
+.fool3 a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    margin: 2%;
+    text-decoration: none;
+}
+
+.fool3 a:hover {
+    color: #43677f;
+}
+
+/* About page box - include all content */
+#his-box {
+    margin: auto;
+    width: 94%;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 2% 0;
+}
+
+/* header and menu */
+#ht-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#ht-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#left {
+    background-color: #8BACCC;
+    width: 23px;
+    height: 68px;
+    border-radius: 8px 0 0 8px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+#right {
+    width: 480px;
+}
+
+#right h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 308px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 5%;
+    color: #7D9AB6;
+}
+
+#ht-right {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-col {
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+}
+
+#ht-right a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2B2A2A;
+    text-align: center;
+}
+
+#ht-right a:hover {
+    text-decoration: underline;
+    color: #b8dcff;
+}
+
+/* side nav */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(104, 104, 104);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 14%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    padding: 11px !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    display: block !important;
+    transition: 0.3s !important;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+
+#menu-fool3 a {
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: white !important;
+    margin: 2% !important;
+    text-decoration: none !important;
+    text-align: left !important;
+}
+
+#nv-btn {
+    display: none;
+    cursor: pointer;
+    text-align: end;
+    padding-top: 6%;
+    padding-right: 2%;
+}
+
+/* header box - title + icon */
+#header-box {
+    background-color: #D0DEE7;
+    width: 93%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#header-titleb {
+    margin: 1% 0 1% 4%;
+}
+
+#header-titleb h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    color: #A1B7CD;
+    margin: 0;
+}
+
+/* box 1 - the evolutionary ... */
+#box1 {
+    display: flex;
+}
+
+#box1-left {
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    margin: 5% 9%;
+}
+
+#box1-title h2{
+    font-family: 'Alef', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #686A6D;
+    margin-bottom: 3%;
+}
+
+#box1-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#box1-line {
+    background: rgba(167, 177, 189, 1);
+    height: 2px;
+    width: 70%;
+    margin: auto;
+}
+
+#box1-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(75, 71, 83, 0.92);
+    line-height: 28px;
+}
+
+#box1-right {
+    width: 46%;
+    display: flex;
+    align-items: center;
+}
+
+#p-box1-image {
+    display: none;
+}
+
+/* box 2 - (title) Differs from... */
+#box2 {
+    display: flex;
+}
+
+#box2-left {
+    width: 65%;
+    margin-left: 6%;
+    display: flex;
+}
+
+#box2-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#box2-right-image {
+    display: flex;
+    flex-direction: column;
+}
+
+#box2-right-image img{
+    margin-left: 46%;
+}
+
+#box2-line {
+    background: #7F9CAF;
+    height: 150px;
+}
+
+#box2-right-title {
+    width: 80%;
+    margin: auto;
+}
+
+#box2-right-title h3 {
+    font-family: 'Alef', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #686A6D;
+    margin: 0;
+}
+
+/* box 3 - text of box 2 */
+#box3 {
+    display: flex;
+    margin-top: 3%;
+}
+
+#box3-left {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+}
+
+#box3-left-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 13.7%;
+    margin-bottom: 6%;
+}
+
+#box3-left-line {
+    background: #7F9CAF;
+    height: 30px;
+}
+
+#box3-right {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+}
+
+#box3-right-text {
+    width: 94%;
+}
+
+#box3-right-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(75, 71, 83, 0.92);
+    line-height: 28px;
+}
+
+#box3-right-image1 {
+    margin-top: 3%;
+}
+
+#box3-right-image2 {
+    margin-top: 2%;
+}
+
+/* box 4 - (second text) They are... */
+#box4 {
+    background-image: url("../image/D-History_box4-bck.png");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 610px;
+    background-position-x: 570px;
+    display: flex;
+    margin-top: 3%;
+}
+
+#box4-left {
+    width: 55%;
+    margin-left: 6%;
+}
+
+#box4-left p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(75, 71, 83, 0.92);
+    line-height: 28px;
+    width: 73%;
+    margin: 5% auto;
+}
+
+#box4-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+#box4-right-image1 {
+    margin-bottom: 5%;
+}
+
+#box4-right-line {
+    background: #7F9CAF;
+    height: 30px;
+}
+
+#box4-right-image2 {
+    margin-left: 22%;
+}
+
+/* change to another slide when the screen size is at or below 659px */
+#p-box-bottom {
+    width: 88%;
+    margin: auto;
+}
+
+#p-line {
+    background: #7F9CAF;
+    height: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-top: 4%;
+}
+
+#p-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#p-title h2{
+    font-family: 'Alef', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    color: #686A6D;
+}
+
+#p-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(75, 71, 83, 0.92);
+    line-height: 28px;
+}
+
+#p-endb {
+    background-image: url("../image/P_end_background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 89%;
+    width: 94%;
+    margin: auto;
+}
+
+#p-fool3 {
+    text-align: end;
+    padding-top: 26%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+    opacity: 0.6;
+}
+
+#p-fool3 a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #204163;;
+    text-decoration: none;
+}
+
+#p-version {
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    #box3-right-image2 {
+        display: none;
+    }
+    #box3-right {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width:659px) {
+
+    /* display out the menu button after responsive to corresponding screen size */
+    .menu-col {
+        display: none;
+    }
+    #nv-btn {
+        display: block;
+    }
+    #box1 {
+        flex-direction: column;
+        width: 94%;
+        margin: auto;
+    }
+    #box1-left {
+        width: 94%;
+        margin: auto;
+    }
+    #box1-title h2 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    #box1-line {
+        display: none;
+    }
+    #box1-right {
+        display: none;
+    }
+    #p-box1-image {
+        display: block;
+        margin: auto;
+    }
+    #box2, #box3, #box4 {
+        display: none;
+    }
+    .fool3 {
+        display: none;
+    }
+    #container {
+        padding-bottom: 2%;
+    }
+    #p-version {
+        display: block;
+    }
+}
+
+@media screen and (max-width:475px) {
+    #icon {
+        display: none;
+    }
+    #header-box {
+        justify-content: center;
+    }
+    #header-titleb {
+        margin: auto;
+    }
+}
