@@ -5776,7 +5776,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-image: url("../img/winterBG.jpg") !important;
+  background: linear-gradient(#2e8cde, #a0cee5) !important;
   background-size: 200px 100px;
   border-bottom: 2px #f5c0fe solid;
 }
