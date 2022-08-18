@@ -1,0 +1,515 @@
+@import "stylegeneral.css";
+
+body {
+    margin: 0;
+    background-color: #FFE5F8;
+    font-family: 'Asar', serif;
+    color: #580101;
+}
+
+h1 {
+    font-size: 240%;
+}
+
+p {
+    font-size: 120%;
+}
+
+/* timeline */
+.icon{
+    top:30%;
+    z-index: 9;
+}
+
+.icon a{
+    text-decoration: none;
+    font-size: 110% !important;
+}
+
+.icon ul {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon ul::before {
+    height: 133%;
+    width: 133%;
+    display: block;
+    position: absolute;
+    top: -18%;
+    left: 10px;
+}
+
+.icon li {
+    margin: 18px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.icon li::before {
+    height: 20px;
+    width: 20px;
+    content: "";
+    display: inline-block;
+    background-color: rgb(241, 128, 202);
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+}
+
+.icon li span {
+    position: relative;
+    left: -100%;
+    transition: left 300ms ease-in;
+}
+
+.icon li:hover span {
+    left: 0;
+}
+
+.description {
+    margin-left: 200px !important;
+    padding-top: 0% !important;
+    margin-top: 8%;
+}
+
+.list-group img {
+    width: 100%;
+}
+
+.list-group{
+    --bs-list-group-active-bg:none;
+    --bs-list-group-active-border-color:none;
+    --bs-list-group-border-color:black;
+    --bs-list-group-bg:none;
+    --bs-list-group-active-color:none;
+    --bs-list-group-disabled-bg:none;
+}
+
+.list-group a:hover {
+    background-color:rgb(169, 23, 169);
+}
+
+.row a {
+    font-size: 145%;
+    color: #580101;
+}
+
+.text {
+    padding-right: 15%;
+}
+
+.mobile{
+    display: none;
+}
+
+.wagashi a {
+    display: none;
+
+}
+.anmitsu a {
+    display: none;
+}
+.mochi a {
+    display: none;
+}
+
+/* Country description */
+.wagashiart {
+    padding-top: 13%;
+}
+
+.li1 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-1 {
+    padding-left: 19%;
+}
+
+#list-item-1 img {
+    width: 20%;
+    padding: 4%;
+}
+
+.wagashi{
+    padding-top: 0% !important;
+}
+
+.wagashi img {
+    width: 100%;
+    margin-top: 5% !important;
+}
+
+.anmitsuart {
+    padding-top: 20%;
+}
+
+.li2{
+    padding-top: 10% !important;
+}
+
+.li2 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-2 {
+    padding-left: 19%;
+    padding-top: 4%;
+}
+
+#list-item-2 img {
+    width: 20%;
+    padding: 4%;
+}
+
+.anmitsu img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.mochiart {
+    padding-top: 10%;
+}
+
+.li3 a {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding-top: 3%;
+}
+
+#list-item-3 {
+    padding-left: 19%;
+    padding-top: 4%;
+}
+
+#list-item-3 img {
+    width: 20%;
+    padding: 4%;
+}
+
+.mochi img {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.f-title-font a{
+    color: white;
+}
+
+@media screen and (min-width: 989px) and (max-width: 1225px) {
+    .description {
+        margin-left: 15% !important;
+        margin-top: 4%;
+    }
+
+    .icon a {
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+    }
+
+    .icon img {
+        width: 95%;
+    }
+
+    #list-item-1 {
+        padding-left: 13%;
+    }
+
+    #list-item-2 {
+        padding-left: 13%;
+    }
+
+    #list-item-3 {
+        padding-left: 13%;
+    }
+
+    #list-item-1 img {
+        width: 22%;
+    }
+
+    #list-item-2 img {
+        width: 22%;
+    }
+
+    #list-item-3 img {
+        width: 22%;
+    }
+
+    .text {
+        padding-right: 10%;
+    }
+
+    .wagashiart {
+        padding-top: 10%;
+    }
+
+    .anmitsuart {
+        padding-top: 8%;
+    }
+
+    #list-item-3 {
+        padding-top: 0%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 988px) {
+    .description {
+        margin-left: 13% !important;
+        margin-top: 13%;
+    }
+
+    .icon{
+        margin-left: 0% !important;
+    }
+
+    .icon a {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .icon img {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .text {
+        padding-right: 5%;
+    }
+
+    #list-item-1 {
+        padding-left: 10%;
+    }
+
+    #list-item-2 {
+        padding-left: 10%;
+    }
+
+    #list-item-3 {
+        padding-left: 10%;
+    }
+
+    #list-item-1 img {
+        width: 24%;
+    }
+
+    #list-item-2 img {
+        width: 24%;
+    }
+
+    #list-item-3 img {
+        width: 24%;
+    }
+
+    .wagashiart img {
+        width: 130%;
+    }
+
+    .wagashiart {
+        padding-top: 5%;
+    }
+
+    .wagashi img {
+        margin-top: 20% !important;
+    }
+
+    .anmitsuart img {
+        width: 130%;
+    }
+
+    .anmitsuart {
+        padding-top: 5%;
+    }
+
+    .anmitsu img {
+        margin-top: 20% !important;
+    }
+
+    .mochiart img {
+        width: 130%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+
+    .mochi img {
+        margin-top: 25% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .description {
+        margin-top: 25%;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wagashi a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .anmitsu a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .mochi a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .notmobile {
+        display: none;
+    }
+
+    .description {
+        margin-left: 0% !important;
+    }
+
+    .li1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+    }
+
+    .li2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .li3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    #list-item-1 {
+        padding-left: 0%;
+    }
+
+    #list-item-2 {
+        padding-left: 0%;
+    }
+
+    #list-item-3 {
+        padding-left: 0%;
+    }
+
+    #list-item-1 img {
+        width: 30%;
+    }
+
+    #list-item-2 img {
+        width: 30%;
+    }
+
+    #list-item-3 img {
+        width: 30%;
+    }
+
+    .text {
+        padding: 2%;
+    }
+
+    .wagashi {
+        padding-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5% !important;
+    }
+
+    .wagashi img {
+        margin-top: 0% !important;
+        border-radius: 0% !important;
+        width: 90%;
+    }
+
+    .wagashiart {
+        padding-top: 5%;
+    }
+
+    .anmitsu {
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5% !important;
+        margin-bottom: 0% !important;
+    }
+
+    .anmitsu img {
+        margin-top: 0% !important;
+        padding-top: 0%;
+        border-radius: 0% !important;
+        width: 90%;
+    }
+
+    .anmitsuart {
+        padding-top: 5%;
+    }
+
+    .mochi {
+        padding-top: 0% !important;
+        margin-top: 0% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mochi img {
+        margin-top: 0% !important;
+        border-radius: 0% !important;
+        padding-top: 0%;
+        width: 90%;
+    }
+
+    .mochiart {
+        padding-top: 5%;
+    }
+}

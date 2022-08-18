@@ -1,0 +1,220 @@
+@import "stylegeneral.css";
+
+body {
+    margin: 0;
+    font-family: 'Asar', serif ;
+}
+
+.h-top {
+    position: absolute;
+}
+
+#main{
+    padding-right: 2% !important;
+}
+
+/*Top*/
+.contacttop {
+    background-color: #363131;
+    padding: 5%;
+    padding-top: 0%;
+}
+.contacttop h1 {
+    font-size: 378%;
+    padding-top: 5%;
+    margin-top: 8%;
+}
+.contacttop h5 {
+    font-size: 160%;
+}
+
+
+/*Bottom*/
+.contactbottom {
+    background-color: #D2A6A6;
+    display: flex;
+    position: relative;
+    padding: 4%;
+}
+
+/*Bottom-Right_Content*/
+.contactform {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: -40%;
+    right: 3%;
+}
+
+/*Bottom-Form-Header*/
+.headerform {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+.headertext {
+    width: 70%;
+}
+.headertext h4{
+    font-size: 150%;
+}
+/*Bottom-Form*/
+.fillform {
+    width: 90%;
+    padding-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.fillform .form-label, .fillform .form-label .form-control {
+    font-size: 130%;
+}
+
+/*Bottom-Left_Content*/
+.leftcontent {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.leftcontent p {
+    font-size: 132%;
+    padding: 5%;
+}
+.designer {
+    width: 100%;
+    padding-left: 5%;
+}
+.leftcontent h3 {
+    font-size: 263%;
+}
+.leftcontent a {
+    font-size: 132%;
+    text-decoration: none;
+    color: #363131;
+}
+.leftcontent a:hover {
+    text-decoration: underline;
+}
+.leftcontent h2 {
+    font-size: 189%;
+    padding: 5%;
+    padding-top: 10%;
+}
+.leftbottom img{
+    margin: 10%;
+    margin-bottom: 0;
+    display: flex;
+    width: 50%;
+}
+
+
+/*BBottom-Copyright*/
+.contactcopy {
+    background-color: #D2A6A6;
+    padding: 4%;
+}
+.contactcopy h6 {
+    color: white;
+    font-size: 120%;
+}
+
+
+/*Responsive-Tablet*/
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .contacttop h1 {
+        margin-top: 17%;
+    }
+
+    /*Bottom-Form-Header*/
+    .headertext {
+        width: 80%;
+    }
+
+    /*Bottom-Right_Content*/
+    .contactform {
+        top: -15%;
+        right: 3%;
+    }
+    /*BBottom-Copyright*/
+    .contactcopy {
+        padding: 18%;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*Top*/
+    .contacttop {
+        padding: 7%;
+        padding-top: 3%;
+    }
+    .contacttop h1 {
+        margin-top: 23%;
+        font-size: 350%;
+    }
+    .contacttop h5 {
+        font-size: 140%;
+    }
+
+    /*Bottom*/
+    .contactbottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactform {
+        width: 80%;
+        position: relative;
+        top:0;
+        right:0;
+    }
+
+    /*Bottom-Form-Header*/
+    .headerform {
+        margin-top: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .headertext {
+        width: 100%;
+    }
+    .headertext {
+        padding: 9%;
+        text-align: center;
+    }
+
+    /*Bottom-Left_Content*/
+    .leftcontent {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .leftcontent h3 {
+        font-size: 240%;
+    }
+    .leftcontent a {
+        font-size: 140%;
+    }
+    .leftbottom {
+        display: none;
+    }
+    .leftcontent h2 {
+        font-size: 150%;
+    }
+
+    /*BBottom-Copyright*/
+    .contactcopy {
+        padding: 18%;
+        padding-bottom: 10%;
+    }
+}
